@@ -66,6 +66,7 @@
           <e p="GameController.cs" t="Include" />
           <e p="GameManager.cs" t="Include" />
           <e p="GameOverPopUp.cs" t="Include" />
+          <e p="MyAudioPostprocessor.cs" t="Include" />
           <e p="PopUp.cs" t="Include" />
           <e p="PopUpsContainer.cs" t="Include" />
           <e p="RoadConstructor.cs" t="Include" />
