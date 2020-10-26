@@ -9,6 +9,7 @@ public class GameManager : MonoBehaviour
     public StatsController statsController;
     public GameController gameController;
     public PopUpsContainer popUpsContainer;
+    public AudioManager audioManager;
 
     public static GameManager instance = null;
 

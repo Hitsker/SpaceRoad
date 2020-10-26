@@ -85,6 +85,7 @@ public class ShipController : MonoBehaviour
         {
             Debug.Log("--------------------------Death------------------------");
             OnDeath?.Invoke();
+            GameManager.instance.audioManager.PlayFX(Sound.Explosion);
             Instantiate(_explosion, _explosionInstPoint);
             Instantiate(_flare, _flareInstPoint);
         }

@@ -21,5 +21,9 @@ public class GameOverPopUp : PopUp
         _newRecord.SetActive(statsController.IsScoreBeaten);
         
         _restart.onClick.AddListener(GameController.RestartGame);
+        _restart.onClick.AddListener(()=>
+        {
+            GameManager.instance.audioManager.PlayUI(Sound.Click);
+        });
     }
 }
